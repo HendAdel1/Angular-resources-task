@@ -1,7 +1,7 @@
 <ng-container *ngFor="let day of days">
     <!-- Original row -->
-    <div class="row align-items-center justify-content-end py-3" *ngIf="day.activated">
-      <div class="col-md-10 d-flex flex-row-reverse align-items-end" *ngIf="day.activated">
+    <div class="row align-items-center justify-content-end py-3">
+      <div class="col-md-10 d-flex flex-row-reverse align-items-end"  *ngIf="day.activated">
         <div class="time">
           <label for="start-time" class="right-label">{{'component6.start.time' | translate}}</label>
           <input id="start-time" type="time" class="form-control text-right appointment-style pb-3 pt-1" placeholder="{{'component6.choose.time' | translate}}">
@@ -73,14 +73,5 @@
           </div>
         </div>
       </div>
-
-
-    <div class="col-md-2 d-flex align-items-center justify-content-end">
-      <label class="mr-3">{{ day.name | translate }}</label>
-      <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" [id]="day.id" (change)="toggleTimePicker($event, day)">
-        <label class="custom-control-label" [for]="day.id"></label>
-      </div>
-    </div>
 
   </ng-container>
