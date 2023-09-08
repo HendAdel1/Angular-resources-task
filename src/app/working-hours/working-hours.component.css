@@ -1,0 +1,17 @@
+.container-fluid{
+  background-color: white;
+  border-radius: 12px;
+}
+.toggle-button{
+  width: 75%;
+  border-radius: 10px;
+  border: 1px solid #F5F5F5;
+  background-color: #FBFBFB;
+}
+.text-top{
+  font-size: 24px;
+}
+.text-bottom{
+  color: #92A1AD;
+}
+

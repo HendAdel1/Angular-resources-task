@@ -1,0 +1,25 @@
+.top-text{
+  color: #92A1AD;
+  font-size: 14px;
+}
+.appointment-style{
+  border-radius: 9px;
+  background-color: #F6F2F2;
+  border: 1px solid #D9D9D9;
+}
+.radio-buttons {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+}
+.service-time{
+  gap: 5px;
+}
+
+.input{
+  width: 23px;
+  height: 23px;
+  color: #E0E5F2;
+  background-color: #ff0000;
+}
+

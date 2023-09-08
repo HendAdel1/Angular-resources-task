@@ -1,0 +1,58 @@
+{
+  "component1": {
+    "delete.button": "delete resources",
+    "save.button": "save changes",
+    "switch": "activated",
+    "add.resource": "add new resources"
+  },
+  "component2": {
+    "resources.name": "resource name",
+    "input.name": "enter resource name"
+  },
+  "component3": {
+    "choose.resources": "choose resources type",
+    "month": "month",
+    "day": "enter day number",
+    "during.day": "reserve during day",
+    "reserve.more": "reserve duration",
+    "more.days": "(more than day)",
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec",
+    "serv-time":"service time",
+    "fix-time":"fixed time",
+    "minute": "minute",
+    "multi.reservation": "multi-reservation",
+    "only.one": "only one",
+    "morethan.one": "more persons for same time",
+    "appointment": "appointment"
+  },
+  "component5": {
+    "work.hours": "Specify working hours for the resource",
+    "info": "Configure your week's settings here. Simply move the sliders and add/remove break times to set up your working hours.",
+    "advanced.settings": "advanced.settings",
+    "traditional.settings": "traditional.settings"
+  },
+  "component6": {
+    "saturday": "saturday",
+    "sunday": "sunday",
+    "monday": "monday",
+    "tuesday": "tuesday",
+    "wednesday": "wednesday",
+    "thursday": "thursday",
+    "friday": "friday",
+    "start.time": "start time",
+    "end.time": "end time",
+    "choose.time": "choose time"
+
+  }
+}

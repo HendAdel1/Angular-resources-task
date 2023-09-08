@@ -1,0 +1,33 @@
+.top-text{
+  color: #92A1AD;
+  font-size: 14px;
+}
+
+.d{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.input-number{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #F6F2F2;
+}
+.select-style{
+  direction: rtl;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #ECF1F6;
+}
+
+
+select {
+  /* Hide the default arrow as it's mostfz */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Add a custom arrow */
+  background-image: url('../../../../assets/arr.png');
+  background-repeat: no-repeat;
+  background-position: 20% center;
+  background-size: 20px;
+}

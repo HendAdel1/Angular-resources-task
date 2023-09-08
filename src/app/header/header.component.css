@@ -1,0 +1,13 @@
+.container-fluid{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-del-style{
+  color: #FF4B55;
+  border: 1px solid #FF4B55;
+  background-color:#FFF6F6;
+}
+.arrow-style{
+  background-color: #E7EAED;
+  border-radius: 12px;
+}

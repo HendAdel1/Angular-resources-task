@@ -1,0 +1,40 @@
+.container{
+  background-color: white;
+  border-radius: 15px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.form-group{
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0 !important;
+}
+label{
+  margin: 0 !important;
+}
+.rtl-form {
+  direction: rtl;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.radio-item {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+}
+.right-label{
+  color: #92A1AD;
+  font-size: 14px;
+}
+.radio-label{
+  color: #92A1AD;
+  font-weight: 700;
+}

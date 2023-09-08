@@ -1,0 +1,23 @@
+<div class="container mt-4">
+  <div class="row">
+    <form [formGroup]="myForm" class="rtl-form col-lg-12">
+      <div class="form-group d-flex py-3">
+        <label class="right-label">{{ 'component3.choose.resources' | translate }}</label>
+
+        <div class="radio-group">
+          <div class="radio-item">
+            <input type="radio" formControlName="type" value="duringday">
+            <label class="radio-label">{{ 'component3.reserve.more' | translate }}
+            </label>
+          </div>
+
+          <div class="radio-item">
+            <input type="radio" formControlName="type" value="moredays">
+            <label class="radio-label">{{ 'component3.during.day' | translate }}</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+

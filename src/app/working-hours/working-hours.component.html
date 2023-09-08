@@ -1,0 +1,21 @@
+<div class="outer-wrapper px-5">
+  <div class="container-fluid mt-4">
+    <div class="row align-items-center justify-content-between pt-4">
+      <div class="col-md-3">
+        <div class="toggle-button pl-3 py-2">
+          <button class="btn" [ngClass]="{'btn-primary': isTraditionalSettingsSelected}" (click)="selectTraditionalSettings()">{{'component5.traditional.settings' | translate}}</button>
+          <button class="btn" [ngClass]="{'btn-primary': !isTraditionalSettingsSelected}" (click)="selectAdvancedSettings()">{{'component5.advanced.settings' | translate}}</button>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="text-container text-right pr-4">
+          <p class="text-top">{{'component5.work.hours' | translate}}</p>
+          <p class="text-bottom">{{'component5.info' | translate}}</p>
+        </div>
+      </div>
+    </div>
+
+    <app-toggle-days></app-toggle-days>
+
+  </div>
+</div>
